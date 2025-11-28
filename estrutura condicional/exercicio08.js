@@ -1,4 +1,4 @@
-// Cálculo de IMC 
+
 
 let peso = parseFloat(prompt("Digite seu peso em kg:"));
 let altura = parseFloat(prompt("Digite sua altura em metros:"));
@@ -7,7 +7,7 @@ let imc = peso / (altura * altura);
 
 let classificacao = "";
 
-if (imc < 18.5) {
+if (imc < 18.5) {   
     classificacao = "Abaixo do peso";
 } else if (imc >= 18.5 && imc <= 24.9) {
     classificacao = "Peso normal";
